@@ -1,0 +1,99 @@
+
+==============================================================================
+lazy:                                                                       ✅
+
+lazy.nvim ~
+- {lazy.nvim} version `11.17.5`
+- ✅ OK {git} `version 2.51.1`
+- ✅ OK no existing packages found by other package managers
+- ✅ OK packer_compiled.lua not found
+
+luarocks ~
+- ✅ OK luarocks disabled
+
+==============================================================================
+vim.deprecated:                                                             ✅
+
+- ✅ OK No deprecated functions detected
+
+==============================================================================
+vim.health:                                                                 ✅
+
+Configuration ~
+- ✅ OK no issues found
+
+Runtime ~
+- ✅ OK $VIMRUNTIME: /usr/share/nvim/runtime
+
+Performance ~
+- ✅ OK Build type: RelWithDebInfo
+
+Remote Plugins ~
+- ✅ OK Up to date
+
+terminal ~
+- key_backspace (kbs) terminfo entry: `key_backspace=\177`
+- key_dc (kdch1) terminfo entry: `key_dc=\E[3~`
+- $TERM_PROGRAM="tmux"
+- $COLORTERM="truecolor"
+
+tmux ~
+- ✅ OK escape-time: 10
+- ✅ OK focus-events: on
+- $TERM: screen-256color
+
+External Tools ~
+- ✅ OK ripgrep 14.1.1 (/usr/bin/rg)
+
+==============================================================================
+vim.lsp:                                                                    ✅
+
+- LSP log level : WARN
+- Log path: /home/stephane/git/github.com/stephane-klein/neovim-playground/state/nvim/lsp.log
+- Log size: 0 KB
+
+vim.lsp: Active Clients ~
+- No active clients
+
+vim.lsp: Enabled Configurations ~
+
+vim.lsp: File Watcher ~
+- file watching "(workspace/didChangeWatchedFiles)" disabled on all clients
+
+vim.lsp: Position Encodings ~
+- No active clients
+
+==============================================================================
+vim.provider:                                                               ✅
+
+Clipboard (optional) ~
+- ✅ OK Clipboard tool found: wl-copy
+
+Node.js provider (optional) ~
+- Disabled (loaded_node_provider=0).
+
+Perl provider (optional) ~
+- Disabled (loaded_perl_provider=0).
+
+Python 3 provider (optional) ~
+- Disabled (loaded_python3_provider=0).
+
+Ruby provider (optional) ~
+- Disabled (loaded_ruby_provider=0).
+
+==============================================================================
+vim.treesitter:                                                             ✅
+
+Treesitter features ~
+- Treesitter ABI support: min 13, max 15
+- WASM parser support: false
+
+Treesitter parsers ~
+- ✅ OK Parser: c                         ABI: 15, path: /usr/lib64/nvim/parser/c.so
+- ✅ OK Parser: lua                       ABI: 15, path: /usr/lib64/nvim/parser/lua.so
+- ✅ OK Parser: markdown                  ABI: 15, path: /usr/lib64/nvim/parser/markdown.so
+- ✅ OK Parser: markdown_inline           ABI: 15, path: /usr/lib64/nvim/parser/markdown_inline.so
+- ✅ OK Parser: query                     ABI: 15, path: /usr/lib64/nvim/parser/query.so
+- ✅ OK Parser: vim                       ABI: 15, path: /usr/lib64/nvim/parser/vim.so
+- ✅ OK Parser: vimdoc                    ABI: 15, path: /usr/lib64/nvim/parser/vimdoc.so
+
