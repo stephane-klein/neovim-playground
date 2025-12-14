@@ -3,7 +3,7 @@
 This playground is based on the method described in the following note: <https://notes.sklein.xyz/2024-05-26_1052/zen/>.
 
 The `./start_sandboxed-neovim.sh` command launches Neovim in sandbox environment.  
-This instance reads [`./config/nvim/`](./config/nvim/). Stores Neovim data in `./share/`, `./state/` and `./cache/`.  
+This instance reads [`./config/nvim/`](./config/nvim/). Stores Neovim data in `./local/`.  
 As a consequence, there are no risk of disrupting your global Neovim instance on your workstation.
 
 
