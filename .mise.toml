@@ -1,2 +1,23 @@
 [tools]
 neovim="0.11.5"
+go="latest"
+
+[env]
+GOPATH = "{{config_root}}/go"
+GOBIN = "{{config_root}}/go/bin"
+
+[tasks.aider_grok]
+description = "Start Aider with Grok model"
+run = "aider --model=openrouter/x-ai/grok-code-fast-1"
+
+[tasks.aider_deepseek]
+description = "Start Aider with DeepSeek model"
+run = "aider --model=openrouter/deepseek/deepseek-v3.2"
+
+[tasks.aider_haiku]
+description = "Start Aider with Claude Haiku model"
+run = "aider --model=openrouter/anthropic/claude-haiku-4.5"
+
+[tasks.aider_sonnet]
+description = "Start Aider with Claude Sonnet model"
+run = "aider --model=openrouter/anthropic/claude-sonnet-4.5"

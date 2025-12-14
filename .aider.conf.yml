@@ -1,0 +1,24 @@
+model: openrouter/deepseek/deepseek-v3.2
+weak-model: openrouter/deepseek/deepseek-v3.2
+
+map-tokens: 1024
+
+auto-commits: false
+dirty-commits: false
+attribute-author: true
+attribute-committer: true
+
+git: true
+gitignore: false
+
+dark-mode: true
+pretty: true
+
+stream: true
+
+chat-language: english
+commit-language: english
+
+cache-prompts: true
+cache-keepalive-pings: 3
+notifications: true

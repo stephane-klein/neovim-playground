@@ -1,2 +1,6 @@
-.aider*
+.aider.chat.history.md
+.aider.input.history
+.aider.model.settings.yml
+.aider.tags.cache.v4
 local/
+go/
