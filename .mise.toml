@@ -1,6 +1,7 @@
 [tools]
 neovim="0.11.5"
 go="latest"
+jj="0.36.0"
 
 [env]
 GOPATH = "{{config_root}}/go"
