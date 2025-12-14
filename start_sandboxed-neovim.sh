@@ -7,5 +7,7 @@ export XDG_CONFIG_HOME=$SCRIPT_DIR/config/
 export XDG_DATA_HOME=$SCRIPT_DIR/share/
 export XDG_STATE_HOME=$SCRIPT_DIR/state/
 export XDG_CACHE_HOME=$SCRIPT_DIR/cache/
+mkdir -p "${XDG_DATA_HOME}nvim/swap"
+mkdir -p "${XDG_DATA_HOME}nvim/backup"
 
 nvim $@
