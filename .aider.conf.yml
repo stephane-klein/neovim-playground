@@ -8,7 +8,7 @@ dirty-commits: false
 attribute-author: true
 attribute-committer: true
 
-git: true
+git: false
 gitignore: false
 
 dark-mode: true
