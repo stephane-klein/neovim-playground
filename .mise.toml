@@ -7,6 +7,9 @@ jj="0.36.0"
 GOPATH = "{{config_root}}/go"
 GOBIN = "{{config_root}}/go/bin"
 
+[tasks.clean]
+run = "rm -rf local/"
+
 [tasks.aider_grok]
 description = "Start Aider with Grok model"
 run = "aider --model=openrouter/x-ai/grok-code-fast-1"
