@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 set -e
 
-SCRIPT_DIR="$(dirname "$0")"
+SCRIPT_DIR="$(dirname "$(realpath "$0")")"
 
-export XDG_CONFIG_HOME=$SCRIPT_DIR/config/
-export XDG_DATA_HOME=$SCRIPT_DIR/local/share/
+export NVIM_APPNAME="neovim_playground"
 
-mkdir -p "${XDG_DATA_HOME}nvim/swap"
-mkdir -p "${XDG_DATA_HOME}nvim/backup"
+if [ ! -h ~/.config/$NVIM_APPNAME ]; then
+    ln -s "${SCRIPT_DIR}/config" "${HOME}/.config/${NVIM_APPNAME}"
+fi
 
-export XDG_STATE_HOME=$SCRIPT_DIR/local/state/
-export XDG_CACHE_HOME=$SCRIPT_DIR/local/cache/
+ls -lha ~/.config/neovim_playground
+
 nvim $@
