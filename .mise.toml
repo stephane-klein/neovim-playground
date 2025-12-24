@@ -6,13 +6,12 @@ jj="0.36.0"
 [env]
 GOPATH = "{{config_root}}/go"
 GOBIN = "{{config_root}}/go/bin"
-NVIM_APPNAME = "neovim_playground"
 
 [tasks.clean]
 run = """
-rm -rf ~/.local/state/${NVIM_APPNAME}/
-rm -rf ~/.local/share/${NVIM_APPNAME}/
-rm -rf ~/.local/cache/${NVIM_APPNAME}/
+rm -rf ~/.local/state/neovim_playground
+rm -rf ~/.local/share/neovim_playground
+rm -rf ~/.local/cache/neovim_playground
 """
 
 [tasks.lazy_sync]
