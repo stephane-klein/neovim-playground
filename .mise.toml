@@ -9,6 +9,7 @@ GOBIN = "{{config_root}}/go/bin"
 
 [tasks.clean]
 run = """
+unlink ~/.config/neovim_playground
 rm -rf ~/.local/state/neovim_playground
 rm -rf ~/.local/share/neovim_playground
 rm -rf ~/.local/cache/neovim_playground
